@@ -21,3 +21,6 @@ else if (isEvening == true)
 {
     document.querySelector('#welcome h2').textContent = "Good Evening"
 }
+
+const secretMesseage = "Why did the Javascript developer wear glasses? ----- Because they couldn't C# :)"
+localStorage.setItem("It's a secret to everybody.", JSON.stringify(secretMesseage))
